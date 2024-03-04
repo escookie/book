@@ -1,0 +1,26 @@
+.category{
+    background-color: #fafafa;
+    display: flex;    
+    justify-content: center;    
+    padding: 0.8% 15%;
+    /* border-bottom: 1px solid #e9e9eb; */
+    backdrop-filter: blur(20px) saturate(1.8);
+    flex-wrap: wrap;
+    font-size: 14px;
+}
+.category a{
+    text-decoration: none;
+    color:#5f5f65;
+    border-bottom: 1px solid #fafafa;    
+    margin: 0 10px;
+}
+.category a:hover{
+    color: #323233;
+    font-weight: 700;
+    border-bottom: 1px solid #c2c2c2;
+}
+@media (max-width: 768px) {
+    .category {
+        padding: 0.8% 5%;
+    }
+}

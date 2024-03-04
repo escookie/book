@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="icon" href="../images/Popy.png" />
+    <link rel="stylesheet" href="../css/main.css" />
+  </head>
+  <body>
+    <main class="main">
+      <!-- category -->
+      <nav class="category">
+        <ul class="category-list">
+          <li class="category-item"><a href="https://www.nl.go.kr/NL/search/openApi/search.do?key=1fcc678ac940549cb24a61ded5ec9453a2924d7475da7cb94de1d5ad53ee8212&kwd=건강">건강</a></li>
+          <li class="category-item"><a href="https://www.nl.go.kr/NL/search/openApi/search.do?key=1fcc678ac940549cb24a61ded5ec9453a2924d7475da7cb94de1d5ad53ee8212&kwd=취미">취미</a></li>
+          <li class="category-item"><a href="https://www.nl.go.kr/NL/search/openApi/search.do?key=1fcc678ac940549cb24a61ded5ec9453a2924d7475da7cb94de1d5ad53ee8212&kwd=경제경영">경제경영</a></li>
+          <li class="category-item"><a href="https://www.nl.go.kr/NL/search/openApi/search.do?key=1fcc678ac940549cb24a61ded5ec9453a2924d7475da7cb94de1d5ad53ee8212&kwd=과학">과학</a></li>
+          <li class="category-item"><a href="https://www.nl.go.kr/NL/search/openApi/search.do?key=1fcc678ac940549cb24a61ded5ec9453a2924d7475da7cb94de1d5ad53ee8212&kwd=사회과학">사회과학</a></li>
+          <li class="category-item"><a href="https://www.nl.go.kr/NL/search/openApi/search.do?key=1fcc678ac940549cb24a61ded5ec9453a2924d7475da7cb94de1d5ad53ee8212&kwd=에세이">에세이</a></li>
+          <li class="category-item"><a href="https://www.nl.go.kr/NL/search/openApi/search.do?key=1fcc678ac940549cb24a61ded5ec9453a2924d7475da7cb94de1d5ad53ee8212&kwd=여행">여행</a></li>
+          <li class="category-item"><a href="https://www.nl.go.kr/NL/search/openApi/search.do?key=1fcc678ac940549cb24a61ded5ec9453a2924d7475da7cb94de1d5ad53ee8212&kwd=역사">역사</a></li>
+          <li class="category-item"><a href="https://www.nl.go.kr/NL/search/openApi/search.do?key=1fcc678ac940549cb24a61ded5ec9453a2924d7475da7cb94de1d5ad53ee8212&kwd=인문학">인문학</a></li>
+          <li class="category-item"><a href="https://www.nl.go.kr/NL/search/openApi/search.do?key=1fcc678ac940549cb24a61ded5ec9453a2924d7475da7cb94de1d5ad53ee8212&kwd=자기계발">자기계발</a></li>
+          <li class="category-item"><a href="https://www.nl.go.kr/NL/search/openApi/search.do?key=1fcc678ac940549cb24a61ded5ec9453a2924d7475da7cb94de1d5ad53ee8212&kwd=요리">요리</a></li>
+          <li class="category-item"><a href="https://www.nl.go.kr/NL/search/openApi/search.do?key=1fcc678ac940549cb24a61ded5ec9453a2924d7475da7cb94de1d5ad53ee8212&kwd=외국어">외국어</a></li>
+          <li class="category-item"><a href="https://www.nl.go.kr/NL/search/openApi/search.do?key=1fcc678ac940549cb24a61ded5ec9453a2924d7475da7cb94de1d5ad53ee8212&kwd=어린이">어린이</a></li>
+          <li class="category-item"><a href="https://www.nl.go.kr/NL/search/openApi/search.do?key=1fcc678ac940549cb24a61ded5ec9453a2924d7475da7cb94de1d5ad53ee8212&kwd=수험서">수험서</a></li>
+        </ul>
+      </nav>
+      <!-- intro -->
+      <section class="intro">
+        <div class="intro-img-box">
+          <img class="intro-img" src="../images/intro.png" alt="" />
+        </div>
+      </section>
+
+      <!-- quote-randomizer -->
+      <div class="quote-randomizer">
+        <div class="quote-title-box">
+          <h4 class="quote-title">오늘의 명언</h4>
+          <button class="quote-bt">
+            <img src="../images/re-bt.svg" alt="명언 재실행 버튼" />
+          </button>
+        </div>
+        <p class="quote-randomizer-phrase">오늘의 명언 찾는중.......</p>
+      </div>
+      <!-- booklist -->
+      <section class="booklist">
+        <article class="booklist-article">
+          <div class="booklist-bts">
+            <button class="booklist-bt booklist-bt-left" id="left">
+              <img src="../images/arrow-left.svg" alt="left-bt" />
+            </button>
+            <button class="booklist-bt booklist-bt-right" id="right">
+              <img src="../images/arrow-right.svg" alt="right-bt" />
+            </button>
+          </div>
+          <img
+            class="bookmark-icon"
+            src="../images/icon1.svg"
+            alt="bookmark-icon"
+          />
+          <header class="booklist-header">
+            <h2 class="booklist-headline"><a href="html/list.html">전체 리스트</a></h2>
+          </header>
+          <div class="booklist-list">
+            <ul class="booklist-slider booklist-sliderAll booklist-all"></ul>
+            <!--  -->
+            <!-- <li class="booklist-item">
+              <div class="booklist-img-box">
+                <img class="booklist-img" src="" alt="책 표지" />
+                <span class="booklist-sub-title">ddd</span>
+              </div>
+              <h3 class="booklist-title">조선의 만난 아이슈타인</h3>
+              <span class="booklist-author">지은이 : 민태기 지음</span>
+            </li> -->
+            <!--  -->
+          </div>
+          <button class="booklist-first" id="all-booklist">
+            <span>처음으로 돌아가기</span>
+          </button>
+        </article>
+        <!-- 오늘의 책 추천 -->
+        <article class="booklist-article">
+          <div class="booklist-bts">
+            <button class="booklist-bt booklist-bt-left" id="tleft">
+              <img src="../images/arrow-left.svg" alt="left-bt" />
+            </button>
+            <button class="booklist-bt booklist-bt-right" id="tright">
+              <img src="../images/arrow-right.svg" alt="right-bt" />
+            </button>
+          </div>
+          <img
+            class="bookmark-icon"
+            src="../images/icon1.svg"
+            alt="bookmark-icon"
+          />
+          <header class="booklist-header">
+            <h2 class="booklist-headline"><a href="html/wishlist.html">오늘의 책 추천</a></h2>
+          </header>
+          <div class="booklist-list">
+            <ul
+              class="booklist-slider booklist-sliderToday booklist-today"
+            ></ul>
+            <!--  -->
+            <!-- <li class="booklist-item">
+              <div class="booklist-img-box">
+                <img class="booklist-img" src="" alt="책 표지" />
+                <span class="booklist-sub-title">ddd</span>
+              </div>
+              <h3 class="booklist-title">조선의 만난 아이슈타인</h3>
+              <span class="booklist-author">지은이 : 민태기 지음</span>
+            </li> -->
+            <!--  -->
+          </div>
+          <button class="booklist-first" id="td-booklist">
+            <span>처음으로 돌아가기</span>
+          </button>
+        </article>
+      </section>
+    </main>
+    <script src="../js/main.js"></script>
+  </body>
+</html>

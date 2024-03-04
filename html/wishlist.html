@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WishList</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/header-fo.css" />
+    <link rel="stylesheet" href="../css/sub-title.css" />
+    <link rel="stylesheet" href="../css/wishlist.css" />
+  </head>
+  <body>
+    <header include-html="../index/header.html"></header>
+    <section include-html="../index/category.html"></section>
+
+    <section class="list">
+      <div class="list-container">
+        <h3>위시리스트</h3>
+        <div class="list-border"></div>
+        <div class="list-books">
+          <div id="news-board">
+            <section>
+              <div><img src="../images/book.jpg" /></div>
+              <div>
+                <ol>
+                  조선이 만난 아인슈타인
+                </ol>
+                <ul>
+                  지은이: 민태기 지음
+                </ul>
+                <ul>
+                  출판사: 윌북
+                </ul>
+                <ul>
+                  발행년 : 2023
+                </ul>
+                <div class="price-style">12,500원</div>
+              </div>
+            </section>
+            <div class="list-contents-border"></div>
+          </div>
+        </div>
+
+        <nav aria-label="Page navigation example">
+          <ul class="pagination"></ul>
+        </nav>
+      </div>
+    </section>
+
+    <footer include-html="../index/footer.html"></footer>
+
+    <script src="../js/wishlist.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../js/search.js"></script>
+    <script src="../js/includes.js"></script>
+    <script>
+      includeHTML();
+    </script>
+  </body>
+</html>
