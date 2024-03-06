@@ -74,7 +74,7 @@
 .quote-randomizer {
   width: fit-content;
   margin: auto;
-  margin-top: 50px;
+  margin-top: 100px;
   margin-bottom: 120px;
   display: flex;
   flex-direction: column;
@@ -179,6 +179,10 @@
   margin-bottom: 3px;
   width: fit-content;
   transition: all 0.3s ease;
+}
+.booklist-headline a{
+  text-decoration: none;
+  color: black;
 }
 
 .booklist-headline:hover {
