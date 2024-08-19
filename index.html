@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="images/Popy.png" />
+  <title>My Bookcase</title>
+
+  <link rel="stylesheet" href="../css/search.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/search.css" />
+</head>
+
+<body>
+  <div class="modal hidden">
+    <div class="modal_overlay"></div>
+    <div class="modal_content">
+      <header class="modal-header">
+        <button id="closeButton"><span>검색 결과</span></button>
+      </header>
+      <div class="modal-body">
+        <div class="modal_gird" id="modal_gird"></div>
+        <nav class="pagination_content">
+          <ul class="pagination_diy" id="pagination"></ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <!-- <button id="modalButton">Open Modal</button>
+    <div class="modal hidden">
+      <div class="modal_overlay"></div>
+      <div class="modal_content">
+        <div class="modal-info">
+          <h3>조선의 만난 아이슈타인</h3>
+          <p>지은이 : 민태기 지음</p>
+          <p>가격 : 30,000원</p>
+          <p>
+            줄거리 : 어쩌구저쩌구 이렇게 되어서 저렇게 되었다. 그래서 결론이
+            되었다.
+          </p>
+          <button id="closeButton">닫기</button>
+        </div>
+      </div>
+    </div> -->
+
+  <!-- <div class="modal-container">
+      <div class="search-section">
+        <ul>
+          <li>
+            <div>
+              <img class="modal-img" src="" alt="책 표지" />
+            </div>
+            <div class="modal-info">
+              <h3>조선의 만난 아이슈타인</h3>
+              <p>지은이 : 민태기 지음</p>
+              <p>가격 : 30,000원</p>
+              <p>
+                줄거리 : 어쩌구저쩌구 이렇게 되어서 저렇게 되었다. 그래서 결론이
+                되었다.
+              </p>x
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div> -->
+
+  <header include-html="../index/header.html"></header>
+  <main include-html="../html/main.html"></main>
+  <footer include-html="../index/footer.html"></footer>
+  <!-- <script src="js/apiKey.js"></script> -->
+  <script src="js/includes.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/search.js"></script>
+  <script>
+    includeHTML();
+  </script>
+</body>
+
+</html>

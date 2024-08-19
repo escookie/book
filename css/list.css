@@ -1,0 +1,79 @@
+a:hover{
+    cursor: pointer;
+}
+ul {
+    list-style: none; /* 모든 ul 요소의 점 제거 */
+    margin: 0;
+    padding: 0;
+}
+ol {
+    margin: 0;
+    padding: 0;
+}
+.list{
+    background-color: #f5f5f7;
+    padding: 3%;
+}
+.list-container{
+    width: 90%;
+    margin: 0 5%;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 3% 5%;
+}
+.list-container h3{
+    padding-bottom: 1%;
+}
+.list-next-btn{
+    display: flex; align-items: center;
+}
+.list-border{
+    border-top: 1px solid #bfbfbf;
+}
+.list-books{    
+    padding: 4%;
+    grid-template-columns: 18% 18% 18% 18% 18%; 
+    display: grid;
+    justify-content: space-between;
+}
+.row{
+    margin-bottom: 20px;
+}
+.list-books img{
+    width: 100%;
+    height: 17vi;    
+}
+.list-books div{
+    padding: 0 1%;
+}
+.list-books ol{
+    font-weight: 700;
+    font-size: clamp(0.8rem, 1.0vw, 1.1rem);
+}
+.list-books ul{
+    font-size: small;
+    color: #828282;
+}
+
+.listPagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.listPage-item {
+    display: inline-block;
+    margin-right: 5px;
+}
+.listPage-item.active .page-link{
+    background-color: burlywood;
+    color: white;
+    border-color: burlywood;
+}
+.page-link{
+    color:#8c8c8c;
+}
+.listPage-item :hover{
+    cursor: pointer;
+    color: rgb(144, 132, 115);
+    background-color: rgb(240, 238, 232);
+}
